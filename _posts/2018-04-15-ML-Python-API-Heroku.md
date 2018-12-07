@@ -23,7 +23,7 @@ Since everything’s on the cloud and the free versions I needed an AI/ML projec
 
 ## Training the image data set
 
-For the sake of simplicity, I’m skipping the data set training part — there are lot of docs over the internet. For our API purpose, I’m generating image vectors and storing them as **csv** files. Since computations will happen over cloud, if we generate vectors on runtime, the API will always timeout. But the API will generate vector for the image data you’ll ping and read other vectors from csv files.
+For the sake of simplicity, I’m skipping the dataset training part — there are lot of docs over the internet. For our API purpose, I’m generating image vectors and storing them as **csv** files. Since computations will happen over cloud, if we generate vectors on runtime, the API will always timeout. But the API will generate vector for the image data you’ll ping and read other vectors from csv files.
 
 ## Setting up the Flask app
 ![Flask Logo](https://cdn-images-1.medium.com/max/800/1*H3aEP7X3hd7wVCigrF3O1Q.png)
