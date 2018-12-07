@@ -20,7 +20,7 @@ The ArUco library for OpenCV is a lightweight C++ wrapper for Augmented Reality 
 + Basic CMake knowledge. For starters, first two steps of the [official documentation](https://cmake.org/cmake-tutorial) will be enough.
 
 ## Installing ArUco Library
-The [latest release package](https://sourceforge.net/projects/aruco/) can be found on sourceforge. Now you need to extract and compile the source code using cmake(the instructions mentioned below work on linux; for windows you can use use cmake-GUI).
+The [latest release package](https://sourceforge.net/projects/aruco/) can be found on sourceforge. Now you need to extract and compile the source code using cmake(the instructions mentioned below work on linux; for windows you can use cmake-GUI).
 
 Note that the official documentation recommends installing it in a working directory, rather than with sudo or admin privileges. Supposing you downloaded it in _Downloads_, open terminal — note that `xxx` is downloaded zip library version
 
